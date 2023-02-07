@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Applications</title>
+</head>
+<body>
+    <h3>Applications</h3>
+    <label for="applications-limit">Limit</label><br>
+    <input type="number" name="applications=limit" id="applications-limit"><br>
+    <label for="applications-offset">Offset</label><br>
+    <input type="number" name="applications-offset" id="applications-offset"><br>
+    <button name="applications-submit" id="applications-submit">Query</button>
+    <table class="green-table" id="applications">
+    </table>
+    <li class="pagination" id="applications-pagination"></li>
+
+    <h3>Global Applications</h3>
+    <label for="global-application-limit">Limit</label><br>
+    <input type="number" name="global-applications-limit" id="global-applications-limit"><br>
+    <label for="application-offset">Offset</label><br>
+    <input type="number" name="applications-offset" id="global-applications-offset"><br>
+    <button name="global-applications-submit" id="global-applications-submit">Query</button>
+    <table class="green-table" id="global-applications">
+    </table>
+    <li class="pagination" id="global-applications-pagination"></li>
+    
+    <h3>Org Applications</h3>
+    <label for="org-applications-limit">Limit</label><br>
+    <input type="number" name="org-applications=limit" id="org-applications-limit"><br>
+    <label for="org-applications-offset">Offset</label><br>
+    <input type="number" name="org-applications-offset" id="org-applications-offset"><br>
+    <button name="org-applications-submit" id="org-applications-submit">Query</button>
+    <table class="green-table" id="org-applications">
+    </table>
+    <li class="pagination" id="org-applications-pagination"></li>
+</body>
+<script src="index.js"></script> 
+</html>

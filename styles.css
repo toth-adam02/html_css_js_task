@@ -1,0 +1,55 @@
+.green-table {
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    font-family: sans-serif;
+    min-width: 400px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.green-table thead tr {
+    background-color: #009879;
+    color: #fff;
+    text-align: left;
+}
+
+.green-table th,
+.green-table td {
+    padding: 12px 15px;
+}
+
+.green-table tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+.green-table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+.green-table tbody tr:last-of-type {
+    border-bottom: 2px solid #009879;
+}
+
+.green-table tbody tr.active-row {
+    font-weight: bold;
+    color: #009879;
+}
+
+.pagination {
+    display: inline-block;
+}
+  
+.pagination li {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    list-style-type: none;
+    cursor: default;
+}
+
+.pagination li.active {
+    background-color: #009879;
+    color: white;
+  }
+  
+.pagination li:hover:not(.active) {background-color: #ddd;}
